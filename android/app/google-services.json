@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "118347608165",
+    "project_id": "firebase-good"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118347608165:android:18431fa1aacd10a3",
+        "android_client_info": {
+          "package_name": "com.good"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118347608165-sj0l3mbpl453aet80ss0ivkk3fsn1v4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.good",
+            "certificate_hash": "BECE43045BA84D831FF11D90DB18E97DF00975A1"
+          }
+        },
+        {
+          "client_id": "118347608165-acbkf74tatl10rut2lfv9jlckm2dpi8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9HioeuPEde7B-ASPpV4NZPbbNZNxtwJk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

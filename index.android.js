@@ -16,6 +16,8 @@ import {
 var OutlineNav = require('./OutlineNav');
 var FrontNav = require('./FrontNav');
 var SearchNav = require('./SearchNav');
+var Profile = require('./Profile');
+
 
 var ScrollableTabView = require('react-native-scrollable-tab-view');
 
@@ -27,6 +29,7 @@ class Good extends Component {
         <FrontNav tabLabel="Featured" />
         <OutlineNav tabLabel="Popular" />
         <SearchNav tabLabel="Search" />
+        <Profile tabLabel="Profile" />
 
       </ScrollableTabView>
 
