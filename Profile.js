@@ -25,14 +25,16 @@ class Profile extends Component {
 
   }
             var self_photo;
-            if (this.state.user.photo === 'null')
+            if (this.state.user.photo !== null)
           {
-            self_photo=<Image source={require('./img/app.png')} 
-                style={styles.thumbnail}/> ;
-          } else{
             self_photo=
               <Image source={{uri: this.state.user.photo}}
                 style={styles.thumbnail}/>;
+
+          } else{
+            self_photo=<Image source={require('./img/app.png')} 
+                style={styles.thumbnail}/> ;
+
           }
     if (this.state.user) {
       return (
