@@ -9,7 +9,8 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
 
 
@@ -24,7 +25,11 @@ var ScrollableTabView = require('react-native-scrollable-tab-view');
 class Good extends Component {
   render(){
     return (
-      <ScrollableTabView tabBarPosition='bottom'
+      <ScrollableTabView 
+        tabBarPosition='bottom'
+        tabBarUnderlineColor='#009688'
+        tabBarActiveTextColor='#009688'
+        tabBarInactiveTextColor='#607D8B'
             initialPage={0}>
         <FrontNav tabLabel="Featured" />
         <OutlineNav tabLabel="Popular" />
@@ -45,6 +50,11 @@ var styles = StyleSheet.create({
   toolbar: {
     backgroundColor: '#a9a9a9',
     height: 56,
+  },
+    image:{
+    width: 10,
+    height: 10,
+
   },
 });
 

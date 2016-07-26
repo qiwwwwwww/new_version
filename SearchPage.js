@@ -12,9 +12,9 @@ var {
   ActivityIndicator
 } = ReactNative;
   
-var REQUEST_URL ='http://100.77.204.99:3000/appstore';
-var IMG_URL='http://100.77.204.99:3000/files/';
-var FILENAME_URL ='http://100.77.204.99:3000/filename/appstore/';
+var REQUEST_URL ='http://129.31.204.220:3000/appstore';
+var IMG_URL='http:// 129.31.204.220:3000/files/';
+var FILENAME_URL ='http://129.31.204.220:3000/filename/appstore/';
 
 
 function urlForQueryAndPage(key, value) {
@@ -29,7 +29,7 @@ class SearchPage extends Component {
     this.state = {
     searchString: 'YouTube',
     isLoading: false,
-    message: 'i am message'
+    message: ''
 
     };
   }
